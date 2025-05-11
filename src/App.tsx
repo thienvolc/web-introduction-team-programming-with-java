@@ -8,7 +8,7 @@ import { Design } from './pages/Design';
 import { Tech } from './pages/Tech';
 import { MinutesPage } from './pages/minutes/MinutesPage';
 export function App() {
-  return <Router>
+  return <Router basename={'/web-introduction-team-programming-with-java'}>
       <div className="flex flex-col min-h-screen bg-background">
         <Navbar />
         <main className="flex-grow">
