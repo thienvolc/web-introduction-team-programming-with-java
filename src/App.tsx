@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
 import { Home } from './pages/Home';
@@ -8,7 +8,7 @@ import { Design } from './pages/Design';
 import { Tech } from './pages/Tech';
 import { MinutesPage } from './pages/minutes/MinutesPage';
 export function App() {
-  return <Router basename={'/web-introduction-team-programming-with-java'}>
+  return <Router basename={`/${process.env.GITHUB_PROJECT_NAME}`}>
       <div className="flex flex-col min-h-screen bg-background">
         <Navbar />
         <main className="flex-grow">

@@ -10,5 +10,5 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: "/web-introduction-team-programming-with-java"
+  base: `/${process.env.GITHUB_PROJECT_NAME}`
 });
