@@ -10,13 +10,13 @@ export function Footer() {
           <a href="#" className="text-sm font-medium text-muted-foreground hover:text-primary">
             <span className="sr-only">GitHub</span>
             <Link to="https://github.com/thienvolc/Subject-Programming-with-Java">
-              <Figma className="h-5 w-5" />
+              <Github className="h-5 w-5" />
             </Link>
           </a>
           <a href="#" className="text-sm font-medium text-muted-foreground hover:text-primary">
             <span className="sr-only">Figma</span>
             <Link to="https://www.figma.com/design/3Cq9DrROd3FBdSdasut9kO/Main?node-id=0-1&p=f&t=SOSFdcMosHNSDA1e-0">
-              <Github className="h-5 w-5" />
+              <Figma className="h-5 w-5" />
             </Link>
           </a>
         </div>
