@@ -15,7 +15,7 @@ export function Footer() {
           </a>
           <a href="#" className="text-sm font-medium text-muted-foreground hover:text-primary">
             <span className="sr-only">Figma</span>
-            <Link to="https://github.com/thienvolc/Subject-Programming-with-Java">
+            <Link to="https://www.figma.com/design/3Cq9DrROd3FBdSdasut9kO/Main?node-id=0-1&p=f&t=SOSFdcMosHNSDA1e-0">
               <Github className="h-5 w-5" />
             </Link>
           </a>
